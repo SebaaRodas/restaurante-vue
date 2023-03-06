@@ -1,18 +1,39 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="container">
+      <Carrito />
+      <hr>
+      <div class="row">
+        <Card v-for="producto of productos" :key="producto.id" :producto="producto"/> 
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+
+import Carrito from '@/components/Carrito.vue'
+import {useStore} from 'vuex'
+import { computed, onMounted } from 'vue'
+import Card from '@/components/Card.vue'
 
 export default {
-  name: 'HomeView',
+  name: 'Home view',
   components: {
-    HelloWorld
+    Carrito,
+    Card
+},
+  setup(){
+    const store = useStore()
+    //para usar el onMounted hay que importar y llamar al useStore() que también hay que importarlo
+    onMounted(async() => {
+      //dispatch dispara la acción
+      store.dispatch('fetchData')
+    })
+    //el state se mapea mediante el computed 
+    const productos = computed(() => store.state.productos)
+    const carrito = computed(() => store.state.carrito)
+    return {productos, carrito}
   }
 }
 </script>

@@ -1,0 +1,74 @@
+[
+    {
+      "precio": 700,
+      "id": 1,
+      "title": "Café",
+      "thumbnailUrl": "https://media.revistagq.com/photos/5e1747089883c90008feb7a7/3:2/w_2671,h_1781,c_limit/cafe-con-leche-de-almendras.jpg"
+    },
+    {
+      "precio": 2000,
+      "id": 2,
+      "title": "Pizza",
+      "thumbnailUrl": "https://content-cocina.lecturas.com/medio/2022/01/29/pizza_con_gambas_y_crema_de_queso_04367439_600x600.jpg"
+    },
+    {
+      "precio": 1500,
+      "id": 3,
+      "title": "Burguer",
+      "thumbnailUrl": "https://assets.unileversolutions.com/recipes-v2/210995.jpg"
+    },
+    {
+      "precio": 200,
+      "id": 4,
+      "title": "Empanadas",
+      "thumbnailUrl": "https://cdn7.kiwilimon.com/recetaimagen/69/11549.jpg"
+    },
+    {
+      "precio": 2000,
+      "id": 5,
+      "title": "Lomito",
+      "thumbnailUrl": "https://www.circuitogastronomico.com/wp-content/uploads/2022/04/lomitook.jpg"
+    },
+    {
+      "precio": 1500,
+      "id": 6,
+      "title": "Milanesa",
+      "thumbnailUrl": "https://astelus.com/wp-content/viajes/Plato-de-milanesa-con-papas-ti%CC%81pico-de-Argentina.jpg"
+    },
+    {
+      "precio": 400,
+      "id": 7,
+      "title": "Coca Cola",
+      "thumbnailUrl": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2020/02/coca-cola-portada-1877741.jpg?tf=3840x"
+    },
+    {
+      "precio": 800,
+      "id": 8,
+      "title": "Patagonia",
+      "thumbnailUrl": "https://superlago.com.ar/wp-content/uploads/2022/01/cerveza-patagonia.png"
+    },
+    {
+      "precio": 500,
+      "id": 9,
+      "title": "Artesanales",
+      "thumbnailUrl": "https://www.cocinista.es/download/bancorecursos/recetas/tipos-cerveza.jpg"
+    },
+    {
+      "precio": 800,
+      "id": 10,
+      "title": "Tragos",
+      "thumbnailUrl": "https://i.pinimg.com/736x/be/3c/f3/be3cf3d79b537fad70037619434a72f6--the-product-pisco-sour.jpg"
+    },
+    {
+      "precio": 1500,
+      "id": 11,
+      "title": "Vinos",
+      "thumbnailUrl": "https://www.clarin.com/img/2022/06/19/LDdwc305a_2000x1500__1.jpg"
+    },
+    {
+      "precio": 500,
+      "id": 12,
+      "title": "Agua",
+      "thumbnailUrl": "http://d3ugyf2ht6aenh.cloudfront.net/stores/798/865/products/48146782-8488201d17fe506c1f16639330522874-640-0.webp"
+    }
+  ]
